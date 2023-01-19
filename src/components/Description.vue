@@ -16,7 +16,8 @@
       </div>
 
       <div class="lg:flex lg:space-x-6">
-        <div class="flex justify-between bg-slate-200 p-4 rounded items-center mt-4 lg:w-2/5">
+        <div
+          class="flex justify-between bg-slate-200 p-4 rounded items-center mt-4 lg:w-2/5 shadow-[0_35px_60px_-15px_rgba(220,220,220,0.3)]">
           <button class="text-orange-400 text-3xl" @click="count--">-</button>
           <span class="text-xl font-bold">
             {{ count }}
@@ -25,7 +26,7 @@
         </div>
 
         <button
-          class="w-full mt-4 rounded-lg bg-orange-400 p-4 hover:bg-orange-300 transition-all flex justify-center items-center space-x-4"
+          class="w-full mt-4 rounded-lg bg-orange-400 p-4 hover:bg-orange-300 transition-all flex justify-center items-center space-x-4 shadow-[0_35px_60px_-15px_rgba(255,150,0,0.3)] "
           @click="setItems">
           <img src="../images/icon-cart.svg" alt="" class="text-white" />
           <span class="text-white font-semibold"> Add to cart </span>

@@ -1,11 +1,7 @@
 <template>
   <div class="bg-white h-[3000vh] w-[300px]  p-6">
-    <img
-      src="../images/icon-close.svg"
-      class="w-6 md:w-8 lg:hidden cursor-pointer"
-      alt=""
-      @click="$emit('closeNavbar')"
-    />
+    <img src="../images/icon-close.svg" class="w-6 md:w-8 lg:hidden cursor-pointer" alt=""
+      @click="$emit('closeNavbar')" />
     <div class="flex-col flex space-y-4 text-lg mt-8">
       <a href="#" class="navLink">Collections</a>
       <a href="#" class="navLink">Men</a>
@@ -24,4 +20,6 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+</style>

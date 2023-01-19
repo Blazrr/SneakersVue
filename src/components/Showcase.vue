@@ -1,17 +1,11 @@
 <template>
   <div class="lg:w-1/2 flex flex-col">
     <div>
-      <swiper
-        :style="{
-          '--swiper-navigation-color': 'white',
-          '--swiper-pagination-color': 'white',
-        }"
-        :spaceBetween="10"
-        :navigation="true"
-        :thumbs="{ swiper: thumbsSwiper }"
-        :modules="modules"
-        class="mySwiper2 lg:rounded-xl"
-      >
+      <swiper :style="{
+        '--swiper-navigation-color': 'white',
+        '--swiper-pagination-color': 'white',
+      }" :spaceBetween="10" :navigation="true" :thumbs="{ swiper: thumbsSwiper }" :modules="modules"
+        class="mySwiper2 lg:rounded-xl">
         <swiper-slide>
           <img src="../images/image-product-1.jpg" />
         </swiper-slide>
@@ -26,29 +20,19 @@
         </swiper-slide>
       </swiper>
 
-      <swiper
-        @swiper="setThumbsSwiper"
-        :spaceBetween="10"
-        :slidesPerView="4"
-        :freeMode="true"
-        :watchSlidesProgress="true"
-        :modules="modules"
-        class="mySwiper mt-8 !p-4 lg:!p-0"
-      >
+      <swiper @swiper="setThumbsSwiper" :spaceBetween="10" :slidesPerView="4" :freeMode="true"
+        :watchSlidesProgress="true" :modules="modules" class="mySwiper mt-8 !p-4 lg:!p-0">
         <swiper-slide>
-          <img
-            src="../images/image-product-1-thumbnail.jpg"
-            class="rounded-lg bg-transparent"
-          />
-        </swiper-slide>
-        <swiper-slide >
-          <img src="../images/image-product-2-thumbnail.jpg" class="rounded-lg"  />
+          <img src="../images/image-product-1-thumbnail.jpg" class="rounded-lg cursor-pointer" />
         </swiper-slide>
         <swiper-slide>
-          <img src="../images/image-product-3-thumbnail.jpg" class="rounded-lg" />
+          <img src="../images/image-product-2-thumbnail.jpg" class="rounded-lg cursor-pointer" />
         </swiper-slide>
         <swiper-slide>
-          <img src="../images/image-product-4-thumbnail.jpg" class="rounded-lg" />
+          <img src="../images/image-product-3-thumbnail.jpg" class="rounded-lg cursor-pointer" />
+        </swiper-slide>
+        <swiper-slide>
+          <img src="../images/image-product-4-thumbnail.jpg" class="rounded-lg  cursor-pointer" />
         </swiper-slide>
       </swiper>
     </div>
@@ -87,4 +71,6 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+</style>
