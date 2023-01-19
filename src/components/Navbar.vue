@@ -8,7 +8,7 @@
         @click="setNavbar"
       />
       <img src="../images/logo.svg" alt="" />
-      <div class="flex hidden lg:block space-x-4 items-center text-lg">
+      <div class="lg:flex hidden  space-x-4 items-center text-lg">
         <a href="#" class="navLink">Collections</a>
         <a href="#" class="navLink">Men</a>
         <a href="#" class="navLink">Woman</a>
@@ -45,7 +45,7 @@
   </div>
   <div
     :class="[isActive ? 'block' : 'hidden']"
-    class="z-20 bg-slate-300 h-[3000vh] w-[3000vw] bg-opacity-10"
+    class="z-20 bg-slate-300 h-[3000vh] w-[3000vw] bg-opacity-10 absolute"
     @click="closeNavbar"
   ></div>
 </template>

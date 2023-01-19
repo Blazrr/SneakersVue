@@ -6,7 +6,7 @@
     <div v-if="store.count > 0">
       <p class="font-semibold p-4">Cart</p>
       <hr />
-      <div class="flex p-4 text-slate-500 items-center space-x-4">
+      <div class="flex p-4 text-slate-500 items-center space-x-4 justify-between">
         <img
           src="../images/image-product-1-thumbnail.jpg"
           alt=""

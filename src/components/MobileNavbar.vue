@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white h-screen w-[300px] p-6">
+  <div class="bg-white h-[3000vh] w-[300px]  p-6">
     <img
       src="../images/icon-close.svg"
       class="w-6 md:w-8 lg:hidden cursor-pointer"
