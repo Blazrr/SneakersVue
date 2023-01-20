@@ -20,7 +20,7 @@
           class="flex justify-between bg-slate-200 p-4 rounded items-center mt-4 lg:w-2/5 shadow-[0_35px_60px_-15px_rgba(220,220,220,0.3)]">
           <button class="text-orange-400 text-3xl" @click="count--">-</button>
           <span class="text-xl font-bold">
-            {{ count }}
+            {{ finalCount }}
           </span>
           <button class="text-orange-400 text-3xl" @click="count++">+</button>
         </div>
